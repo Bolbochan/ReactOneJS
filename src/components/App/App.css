@@ -1,0 +1,38 @@
+
+/* header*/
+.headTop{
+ display: flex;
+align-items: center;
+ justify-content: center;
+ background-color: rgb(53, 58, 58);
+}
+.min{
+  background-image: url(/src/components/images/minus.svg);
+  cursor: pointer;
+padding: 12px;
+background-color: rgb(212, 88, 88);
+border: none;
+}
+.pls{
+  background-image: url(/src/components/images/plus.svg);
+  cursor: pointer;
+  padding: 12px;
+  background-color: rgb(92, 201, 92);
+border: none;
+}
+.count{
+  color: white;
+  padding: 10px;
+}
+button{
+  padding: 0;
+  border:0;
+}
+/*footer*/
+.foot{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(53, 58, 58);
+  color: white;
+}
